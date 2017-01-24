@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Shruggie",
+  "version": "0.1",
+  "description": "A completely useless chrome extension for the lulz ¯\_(ツ)_/¯",
+
+  "browser_action" : {
+    "default_icon" : "icon.png",
+    "default_popup" : "popup.html" 
+  }
+
+ // "content_scripts" : [{
+ //     "run_at" : "document_end",
+ //     "matches" : ["*://*/*"],
+ //     "js" : ["jquery-3.1.1.js", "Person.js", "contentScript.js"]
+ // }]
+}
